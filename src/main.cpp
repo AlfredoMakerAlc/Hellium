@@ -27,12 +27,13 @@
  * Do not forget to define the radio type correctly in config.h.
  *
  *******************************************************************************/
-//V03
+//V03_2
 #include <Arduino.h>
 #include <pines.h>
 #include <lmic.h>
 #include <hal/hal.h>
 #include <RocketScream_LowPowerAVRZero.h>
+
 
 
 volatile boolean envioEnCurso = false;
