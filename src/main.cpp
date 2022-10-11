@@ -27,7 +27,7 @@
  * Do not forget to define the radio type correctly in config.h.
  *
  *******************************************************************************/
-//V02
+//V03
 #include <Arduino.h>
 #include <pines.h>
 #include <lmic.h>
