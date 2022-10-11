@@ -48,7 +48,7 @@ const uint8_t unusedPins[] = {1, 2, 3, 12, 13, 15, 16, 17, 19, 20, 21};
 // the bytes. For TTN issued EUIs the last bytes should be 0xD5, 0xB3,
 // 0x70.
 static const u1_t PROGMEM APPEUI[8]={ 0xA2, 0xD6, 0xC4, 0xFF, 0x97, 0xF9, 0x81, 0x60 };
-
+//
 void wakeUp(void);
 void pulsador(void);
 void do_send(osjob_t* j);
